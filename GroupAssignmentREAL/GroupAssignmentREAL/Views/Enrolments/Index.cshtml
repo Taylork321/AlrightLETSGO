@@ -1,0 +1,59 @@
+﻿@model IEnumerable<GroupAssignmentREAL.Models.Enrolment>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.CourseDescription)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EnrolmentYear)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EnrolmentSemester)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PreRequisite)
+                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EnrolmentYear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EnrolmentSemester)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PreRequisite)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Course.CourseId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.EnrolId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.EnrolId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.EnrolId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
