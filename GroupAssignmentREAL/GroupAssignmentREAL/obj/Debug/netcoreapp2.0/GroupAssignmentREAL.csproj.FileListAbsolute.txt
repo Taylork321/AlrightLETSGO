@@ -19,3 +19,4 @@ C:\Users\1718674\Source\Repos\Taylork321\AlrightLETSGO\GroupAssignmentREAL\Group
 C:\Users\1718674\Source\Repos\Taylork321\AlrightLETSGO\GroupAssignmentREAL\GroupAssignmentREAL\obj\Debug\netcoreapp2.0\GroupAssignmentREAL.AssemblyInfo.cs
 C:\Users\1718674\Source\Repos\Taylork321\AlrightLETSGO\GroupAssignmentREAL\GroupAssignmentREAL\obj\Debug\netcoreapp2.0\GroupAssignmentREAL.dll
 C:\Users\1718674\Source\Repos\Taylork321\AlrightLETSGO\GroupAssignmentREAL\GroupAssignmentREAL\obj\Debug\netcoreapp2.0\GroupAssignmentREAL.pdb
+C:\Users\1718674\Source\Repos\Taylork321\AlrightLETSGO\GroupAssignmentREAL\GroupAssignmentREAL\obj\Debug\netcoreapp2.0\GroupAssignmentREAL.csprojResolveAssemblyReference.cache

@@ -15,7 +15,7 @@ namespace GroupAssignmentREAL.Models
         public string Topic { get; set; }
         public string Description { get; set; }
         public int? Year { get; set; }
-        public int? Semester { get; set; }
+        public string Semester { get; set; }
         public string PreRequisites { get; set; }
         public string Compulsory { get; set; }
 
